@@ -1,0 +1,166 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.836),white);
+    background-repeat:repeat;
+    background-size: cover;
+    /**flex-direction: column;**/
+   
+  
+  
+}
+a:hover{font-family: arial;
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 5%;
+    box-shadow: 6px 20px 10px black;
+ }
+a:visited{color:black;
+     font-family: arial; 
+     text-decoration: none }
+a:link{ 
+    text-decoration: none;
+    border: black; 
+    transition: 1.0s;
+}
+/*css-home*/
+
+.navbar { 
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    background-image: url(../img/runnig2.jpg);
+    box-shadow: 6px 20px 10px black;
+}
+
+
+
+#footer__Home{
+    align-items: center;
+    align-content: center;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    color: white;
+    opacity: 94%;
+    margin: 0%;
+    padding: 10px 15px 10px;
+    background-image: linear-gradient(black,grey,black);
+}
+.Redes{
+    display: grid;
+    grid-column: 1/4;
+    margin: 5px;
+    padding: none;
+    opacity: 95%;
+    text-align: left;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    color: white;
+    background-color: brown;
+}
+.nutricionDepor{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.videoUno{
+    justify-content: center;
+    display: flex;
+}
+.quienSoy{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 60px;
+    background-color: grey;
+    border-radius: 5%;
+    border-style: outset;
+    margin-top: 100px;
+    border-top-style: 60px solid;
+    opacity: 90%;
+    box-shadow: 6px 20px 10px grey;
+}
+.quienSoy__titulo{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Style Script', cursive;
+    font-size: xx-large;
+    color: rgb(247, 201, 117);
+    letter-spacing: 15px;
+    font-size: 50px;
+    
+}
+.quienSoy__tex{
+    font-family: cursive;
+    font-size: large;
+    color: rgb(247, 201, 117);
+      
+}
+.quienSoy__img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 5%;
+    border-radius: 5%;
+}
+.form__Cont{
+    background-color: grey;
+    margin: 0px;
+    padding: 15px;
+    opacity: 90%;
+    font-family: sans-serif;
+    color: khaki;
+    width: 450px;
+    height: auto;
+    border: solid;
+    box-shadow: lightcoral;
+}
+
+
+.Contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(247, 201, 117);
+    letter-spacing: 15px;
+    font-size: 14px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    letter-spacing: 0px;
+    
+    h1{
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        text-align: center;
+        color: blanchedalmond;
+        height: 150px;
+        padding: 50px;
+    }
+  
+}
+.Cont__form--gradiente{
+    background-image: linear-gradient(black,grey,black);
+}
+.Contacto__form--cuerpo{
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.contacto__Form{
+    display: flex;
+    justify-content: center;
+}
+
+@import "./estilos-variables/variables";
+@import "./estilos-variables/servicios";
+@import "./estilos-variables/portada";
+
